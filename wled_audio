@@ -1,0 +1,3 @@
+[env:custom_build]
+extends = env:wemos_shield_esp32_4MB_M
+build_flags = ${env:wemos_shield_esp32_4MB_M.build_flags} -D LEDPIN=16 -D DEFAULT_LED_COUNT=8 -D USERMOD_PWM_OUTPUTS
