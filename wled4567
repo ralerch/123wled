@@ -1,3 +1,0 @@
-[env:custom_build]
-extends = env:esp32_4MB_S
-build_flags = ${env:esp32_4MB_S.build_flags} -D WLED_DISABLE_ALEXA -D WLED_DISABLE_HUESYNC -D LEDPIN=16 -D DEFAULT_LED_COUNT=8 -D USERMOD_AUTO_SAVE -D USERMOD_PWM_OUTPUTS
